@@ -45,7 +45,7 @@ class SolutionTestCase(unittest.TestCase):
         time_nach = time_finish - time_start
         b = a
         b.append(23)
-        b.append(323)
+        b.append(523)
         maxim(b)
         minim(b)
         proizv(b)
