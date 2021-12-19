@@ -30,7 +30,7 @@ class SolutionTestCase(unittest.TestCase):
     def test_minmax(self):
         with open("input.txt", 'r') as file:
             a = list(map(int, file.read().split()))
-        assert maxim(a) == minim(a)
+        assert maxim(a) >= minim(a)
 
 
     def test_time(self):
