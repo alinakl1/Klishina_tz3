@@ -33,9 +33,5 @@ def proizv(num):
 
 data = []
 with open("input.txt", 'r') as file:
-    data = list(map(int, file.read().split()))
+    a = list(map(int, file.read().split()))
 
-print("min =", minim(data))
-print("max =", maxim(data))
-print("sum =", summ(data))
-print("proizv =", proizv(data))
